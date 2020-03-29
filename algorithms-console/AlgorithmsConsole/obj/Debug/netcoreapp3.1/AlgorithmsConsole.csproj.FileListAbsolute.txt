@@ -1,0 +1,11 @@
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\bin\Debug\netcoreapp3.1\AlgorithmsConsole.exe
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\bin\Debug\netcoreapp3.1\AlgorithmsConsole.deps.json
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\bin\Debug\netcoreapp3.1\AlgorithmsConsole.runtimeconfig.json
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\bin\Debug\netcoreapp3.1\AlgorithmsConsole.runtimeconfig.dev.json
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\bin\Debug\netcoreapp3.1\AlgorithmsConsole.dll
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\bin\Debug\netcoreapp3.1\AlgorithmsConsole.pdb
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\obj\Debug\netcoreapp3.1\AlgorithmsConsole.csprojAssemblyReference.cache
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\obj\Debug\netcoreapp3.1\AlgorithmsConsole.AssemblyInfoInputs.cache
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\obj\Debug\netcoreapp3.1\AlgorithmsConsole.AssemblyInfo.cs
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\obj\Debug\netcoreapp3.1\AlgorithmsConsole.dll
+C:\PersonalProjects\aspnet-apps\algorithms-console\AlgorithmsConsole\obj\Debug\netcoreapp3.1\AlgorithmsConsole.pdb

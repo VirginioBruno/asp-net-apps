@@ -1,0 +1,21 @@
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.deps.json
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.json
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.dev.json
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csprojAssemblyReference.cache
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfoInputs.cache
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfo.cs
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.deps.json
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.json
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.dev.json
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfoInputs.cache
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfo.cs
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Views\Livros\Novo.cshtml
+C:\PersonalProjects\aspnet-apps\alura-courses\.NetCore\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Views\Livros\Lista.cshtml

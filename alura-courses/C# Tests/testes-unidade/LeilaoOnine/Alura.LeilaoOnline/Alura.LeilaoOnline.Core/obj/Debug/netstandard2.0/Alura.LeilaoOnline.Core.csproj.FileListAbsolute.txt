@@ -1,0 +1,8 @@
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\bin\Debug\netstandard2.0\Alura.LeilaoOnline.Core.deps.json
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\bin\Debug\netstandard2.0\Alura.LeilaoOnline.Core.dll
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\bin\Debug\netstandard2.0\Alura.LeilaoOnline.Core.pdb
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.AssemblyInfoInputs.cache
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.AssemblyInfo.cs
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.dll
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.pdb
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\C# Tests\LeilaoOnine\Alura.LeilaoOnline\Alura.LeilaoOnline.Core\obj\Debug\netstandard2.0\Alura.LeilaoOnline.Core.csprojAssemblyReference.cache

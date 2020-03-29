@@ -1,0 +1,8 @@
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.SistemaInterno.exe.config
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.SistemaInterno.exe
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.SistemaInterno.pdb
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\bin\Debug\ByteBank.Modelos.dll
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.csprojAssemblyReference.cache
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.csproj.CopyComplete
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.exe
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank.SistemaInterno\ByteBank.SistemaInterno\obj\Debug\ByteBank.SistemaInterno.pdb

@@ -1,0 +1,27 @@
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Services.deps.json
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Services.dll
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Services.pdb
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.dll
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Infrastructure.dll
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.pdb
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Infrastructure.pdb
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.csprojAssemblyReference.cache
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.csproj.CoreCompileInputs.cache
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.AssemblyInfoInputs.cache
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.AssemblyInfo.cs
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.csproj.CopyComplete
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.dll
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Services.deps.json
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Services.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Services.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Infrastructure.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Infrastructure.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.csprojAssemblyReference.cache
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.AssemblyInfoInputs.cache
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.AssemblyInfo.cs
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.csproj.CopyComplete
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Services.pdb

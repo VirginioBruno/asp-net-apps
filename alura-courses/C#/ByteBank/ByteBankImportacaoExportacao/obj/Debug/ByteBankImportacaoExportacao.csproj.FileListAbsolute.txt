@@ -1,0 +1,9 @@
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe.config
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.pdb
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\bin\Debug\ByteBank.Modelos.dll
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\bin\Debug\ByteBank.Modelos.xml
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csprojAssemblyReference.cache
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.CopyComplete
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.exe
+C:\Users\Bruno Virginio\OneDrive\PersonalProjects\aspnet-apps\alura-courses\ByteBank\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.pdb

@@ -1,0 +1,17 @@
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.deps.json
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.dll
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.pdb
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.csprojAssemblyReference.cache
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.csproj.CoreCompileInputs.cache
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.AssemblyInfoInputs.cache
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.AssemblyInfo.cs
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.dll
+C:\Users\copacabana_alura\Source\Repos\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.deps.json
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\bin\Debug\netstandard2.0\Alura.CoisasAFazer.Core.pdb
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.csprojAssemblyReference.cache
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.AssemblyInfoInputs.cache
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.AssemblyInfo.cs
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.dll
+C:\PersonalProjects\aspnet-apps\alura-courses\C# Tests\testes-integracao\src\Alura.CoisasAFazer.Core\obj\Debug\netstandard2.0\Alura.CoisasAFazer.Core.pdb
