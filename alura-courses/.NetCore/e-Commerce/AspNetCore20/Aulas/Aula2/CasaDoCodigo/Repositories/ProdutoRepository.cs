@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 
 namespace CasaDoCodigo.Repositories
 {
+    public interface IProdutoRepository
+    {
+        void SaveProdutos(List<Livro> livros);
+        IList<Produto> GetProdutos();
+    }
+
     public class ProdutoRepository : BaseRepository<Produto>, IProdutoRepository
     {
         public ProdutoRepository(ApplicationContext context) : base(context) { }

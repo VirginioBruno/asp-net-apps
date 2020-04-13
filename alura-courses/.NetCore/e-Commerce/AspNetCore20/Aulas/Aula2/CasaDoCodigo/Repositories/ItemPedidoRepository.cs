@@ -6,8 +6,24 @@ using System.Threading.Tasks;
 
 namespace CasaDoCodigo.Repositories
 {
-    public class ItemPedidoRepository : BaseRepository<ItemPedido>
+    public interface IItemPedidoRepository
     {
-        protected ItemPedidoRepository(ApplicationContext context) : base(context) { }
+        ItemPedido GetItemPedido(int id);
+        void RemoveItemPedido(int id);
+    }
+
+    public class ItemPedidoRepository : BaseRepository<ItemPedido>, IItemPedidoRepository
+    {
+        public ItemPedidoRepository(ApplicationContext context) : base(context) { }
+
+        public ItemPedido GetItemPedido(int id)
+        {
+            return dbSet.Where(i => i.Id == id).SingleOrDefault();
+        }
+
+        public void RemoveItemPedido(int id)
+        {
+            dbSet.Remove(GetItemPedido(id));
+        }
     }
 }

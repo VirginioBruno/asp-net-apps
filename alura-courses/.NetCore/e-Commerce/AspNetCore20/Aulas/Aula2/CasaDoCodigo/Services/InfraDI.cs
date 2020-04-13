@@ -10,6 +10,8 @@ namespace CasaDoCodigo.Services
             services.AddTransient<IDataService, DataService>();
             services.AddTransient<IProdutoRepository, ProdutoRepository>();
             services.AddTransient<IPedidoRepository, PedidoRepository>();
+            services.AddTransient<IItemPedidoRepository, ItemPedidoRepository>();
+            services.AddTransient<ICadastroRepository, CadastroRepository>();
         }
     }
 }

@@ -117,7 +117,6 @@ namespace Alura.CoisasAFazer.Testes
 
             Assert.Equal(LogLevel.Debug, levelCapturado);
             Assert.Contains(tituloTarefaEsperado, mensagemCapturada);
-            
         }
     }
 }
