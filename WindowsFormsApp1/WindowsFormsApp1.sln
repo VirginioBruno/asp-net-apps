@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleFinanceiro", "ControleFinanceiro\ControleFinanceiro.csproj", "{5E217B44-43D6-4B1D-BA1A-F1C475E90CEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{E3AE6B86-9304-4160-86AC-D0276B0520E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E217B44-43D6-4B1D-BA1A-F1C475E90CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E217B44-43D6-4B1D-BA1A-F1C475E90CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E217B44-43D6-4B1D-BA1A-F1C475E90CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E217B44-43D6-4B1D-BA1A-F1C475E90CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AE6B86-9304-4160-86AC-D0276B0520E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AE6B86-9304-4160-86AC-D0276B0520E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AE6B86-9304-4160-86AC-D0276B0520E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AE6B86-9304-4160-86AC-D0276B0520E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E92F96E8-17FC-47F4-ADE8-1165EFA5EC45}
+		SolutionGuid = {C158F39D-B4FD-4F39-90F0-DB3D4131058A}
 	EndGlobalSection
 EndGlobal

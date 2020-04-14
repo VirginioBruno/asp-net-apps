@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
             this.dtDespesa = new System.Windows.Forms.DateTimePicker();
             this.btnNovo = new System.Windows.Forms.Button();
             this.btnIncluir = new System.Windows.Forms.Button();
@@ -50,31 +49,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvDespesas)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(308, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 36);
-            this.label1.TabIndex = 0;
-            this.label1.Text = " Despesas";
-            // 
             // dtDespesa
             // 
-            this.dtDespesa.CustomFormat = "dd/MM/yyyy";
-            this.dtDespesa.Location = new System.Drawing.Point(495, 122);
+            this.dtDespesa.CustomFormat = "";
+            this.dtDespesa.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtDespesa.Location = new System.Drawing.Point(481, 58);
             this.dtDespesa.MaxDate = new System.DateTime(2050, 12, 31, 0, 0, 0, 0);
             this.dtDespesa.MinDate = new System.DateTime(1999, 12, 26, 0, 0, 0, 0);
             this.dtDespesa.Name = "dtDespesa";
-            this.dtDespesa.Size = new System.Drawing.Size(218, 20);
+            this.dtDespesa.Size = new System.Drawing.Size(101, 20);
             this.dtDespesa.TabIndex = 17;
             this.dtDespesa.Value = new System.DateTime(2020, 4, 12, 10, 20, 44, 0);
             this.dtDespesa.ValueChanged += new System.EventHandler(this.dtDespesa_ValueChanged);
             // 
             // btnNovo
             // 
-            this.btnNovo.Location = new System.Drawing.Point(621, 167);
+            this.btnNovo.Location = new System.Drawing.Point(623, 99);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(92, 23);
             this.btnNovo.TabIndex = 16;
@@ -84,7 +74,7 @@
             // 
             // btnIncluir
             // 
-            this.btnIncluir.Location = new System.Drawing.Point(641, 21);
+            this.btnIncluir.Location = new System.Drawing.Point(528, 99);
             this.btnIncluir.Name = "btnIncluir";
             this.btnIncluir.Size = new System.Drawing.Size(75, 23);
             this.btnIncluir.TabIndex = 15;
@@ -94,7 +84,7 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(495, 80);
+            this.txtValor.Location = new System.Drawing.Point(481, 12);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(101, 20);
             this.txtValor.TabIndex = 14;
@@ -102,7 +92,7 @@
             // txtDespesa
             // 
             this.txtDespesa.AcceptsReturn = true;
-            this.txtDespesa.Location = new System.Drawing.Point(112, 80);
+            this.txtDespesa.Location = new System.Drawing.Point(112, 12);
             this.txtDespesa.Name = "txtDespesa";
             this.txtDespesa.Size = new System.Drawing.Size(218, 20);
             this.txtDespesa.TabIndex = 13;
@@ -111,7 +101,7 @@
             // 
             this.lblData.AutoSize = true;
             this.lblData.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblData.Location = new System.Drawing.Point(448, 122);
+            this.lblData.Location = new System.Drawing.Point(434, 58);
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(41, 19);
             this.lblData.TabIndex = 12;
@@ -121,7 +111,7 @@
             // 
             this.lblValor.AutoSize = true;
             this.lblValor.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValor.Location = new System.Drawing.Point(445, 79);
+            this.lblValor.Location = new System.Drawing.Point(431, 11);
             this.lblValor.Name = "lblValor";
             this.lblValor.Size = new System.Drawing.Size(44, 19);
             this.lblValor.TabIndex = 11;
@@ -131,7 +121,7 @@
             // 
             this.lblDespesa.AutoSize = true;
             this.lblDespesa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDespesa.Location = new System.Drawing.Point(42, 81);
+            this.lblDespesa.Location = new System.Drawing.Point(42, 13);
             this.lblDespesa.Name = "lblDespesa";
             this.lblDespesa.Size = new System.Drawing.Size(64, 19);
             this.lblDespesa.TabIndex = 10;
@@ -140,11 +130,12 @@
             // dgvDespesas
             // 
             this.dgvDespesas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDespesas.Location = new System.Drawing.Point(46, 229);
+            this.dgvDespesas.Location = new System.Drawing.Point(46, 168);
             this.dgvDespesas.Name = "dgvDespesas";
-            this.dgvDespesas.Size = new System.Drawing.Size(670, 199);
+            this.dgvDespesas.Size = new System.Drawing.Size(670, 260);
             this.dgvDespesas.TabIndex = 18;
             this.dgvDespesas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CarregaDespesa);
+            this.dgvDespesas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDespesas_CellContentClick);
             // 
             // contextMenuStrip1
             // 
@@ -155,7 +146,7 @@
             // 
             this.lblCategoria.AutoSize = true;
             this.lblCategoria.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategoria.Location = new System.Drawing.Point(35, 124);
+            this.lblCategoria.Location = new System.Drawing.Point(35, 56);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(71, 19);
             this.lblCategoria.TabIndex = 19;
@@ -163,14 +154,14 @@
             // 
             // txtCategoria
             // 
-            this.txtCategoria.Location = new System.Drawing.Point(112, 125);
+            this.txtCategoria.Location = new System.Drawing.Point(112, 57);
             this.txtCategoria.Name = "txtCategoria";
             this.txtCategoria.Size = new System.Drawing.Size(218, 20);
             this.txtCategoria.TabIndex = 20;
             // 
             // btnAtualizar
             // 
-            this.btnAtualizar.Location = new System.Drawing.Point(641, 21);
+            this.btnAtualizar.Location = new System.Drawing.Point(528, 99);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(75, 23);
             this.btnAtualizar.TabIndex = 21;
@@ -183,7 +174,7 @@
             // 
             this.hdnId.Enabled = false;
             this.hdnId.HideSelection = false;
-            this.hdnId.Location = new System.Drawing.Point(46, 25);
+            this.hdnId.Location = new System.Drawing.Point(745, 12);
             this.hdnId.Name = "hdnId";
             this.hdnId.Size = new System.Drawing.Size(10, 20);
             this.hdnId.TabIndex = 22;
@@ -191,7 +182,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(548, 21);
+            this.btnExcluir.Location = new System.Drawing.Point(435, 99);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(75, 23);
             this.btnExcluir.TabIndex = 23;
@@ -203,7 +194,7 @@
             // cboTipo
             // 
             this.cboTipo.FormattingEnabled = true;
-            this.cboTipo.Location = new System.Drawing.Point(112, 167);
+            this.cboTipo.Location = new System.Drawing.Point(112, 99);
             this.cboTipo.Name = "cboTipo";
             this.cboTipo.Size = new System.Drawing.Size(121, 21);
             this.cboTipo.TabIndex = 24;
@@ -212,7 +203,7 @@
             // 
             this.lblTipo.AutoSize = true;
             this.lblTipo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipo.Location = new System.Drawing.Point(67, 166);
+            this.lblTipo.Location = new System.Drawing.Point(67, 98);
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(39, 19);
             this.lblTipo.TabIndex = 25;
@@ -239,7 +230,6 @@
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.lblValor);
             this.Controls.Add(this.lblDespesa);
-            this.Controls.Add(this.label1);
             this.Name = "CadastroDespesas";
             this.Text = "Despesas";
             this.Load += new System.EventHandler(this.CarregaDespesas);
@@ -250,8 +240,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtDespesa;
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnIncluir;

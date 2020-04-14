@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ControleFinanceiro
+namespace WindowsFormsApp1
 {
     static class Program
     {
@@ -15,14 +14,9 @@ namespace ControleFinanceiro
         [STAThread]
         static void Main()
         {
-            using (var context = new Context.ApplicationContext())
-            {
-                context.Database.Migrate();
-            }
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Form1());
         }
     }
 }

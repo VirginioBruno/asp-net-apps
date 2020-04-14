@@ -16,21 +16,14 @@ namespace ControleFinanceiro
 
         private void CarregaDespesas(object sender, EventArgs e)
         {
-            dgvDespesas.DataSource = despesasService.ListarAtual();
+            dgvDespesas.DataSource = despesasService.Listar(DateTime.Now.AddMonths(-1), DateTime.Now);
             dtDespesa.Value = DateTime.Now;
             CarregaTipos();
         }
 
         private void CarregaTipos()
         {
-            var tipos = new List<TipoDespesa>()
-            {
-                new TipoDespesa { Id = 1, Nome = "Fixo" },
-                new TipoDespesa { Id = 2, Nome = "Parcelado" },
-                new TipoDespesa { Id = 3, Nome = "Outros" }
-            };
-
-            cboTipo.DataSource = tipos;
+            cboTipo.DataSource = TipoDespesa.tipos;
             cboTipo.DisplayMember = "Nome";
             cboTipo.ValueMember = "Id";
         }
@@ -41,7 +34,7 @@ namespace ControleFinanceiro
                 Nome = txtDespesa.Text,
                 Valor = Convert.ToDecimal(txtValor.Text),
                 Categoria = txtCategoria.Text,
-                TipoId = cboTipo.SelectedIndex,
+                TipoId = cboTipo.SelectedIndex + 1,
                 Data = dtDespesa.Value
             };
 
@@ -60,7 +53,7 @@ namespace ControleFinanceiro
 
         public void AtualizarDespesas()
         {
-            dgvDespesas.DataSource = despesasService.ListarAtual();
+            dgvDespesas.DataSource = despesasService.Listar(DateTime.Now.AddMonths(-1), DateTime.Now);
         }
 
         public void LimparCampos()
@@ -73,6 +66,7 @@ namespace ControleFinanceiro
             txtDespesa.Text = string.Empty;
             txtValor.Text = string.Empty;
             txtCategoria.Text = string.Empty;
+            cboTipo.SelectedIndex = 0;
             dtDespesa.Value = DateTime.Now;
         }
 
@@ -101,7 +95,7 @@ namespace ControleFinanceiro
                 Id = Convert.ToInt32(hdnId.Text),
                 Nome = txtDespesa.Text,
                 Categoria = txtCategoria.Text,
-                TipoId = cboTipo.SelectedIndex,
+                TipoId = cboTipo.SelectedIndex + 1,
                 Valor = Convert.ToDecimal(txtValor.Text),
                 Data = Convert.ToDateTime(dtDespesa.Value)
             };
@@ -127,6 +121,11 @@ namespace ControleFinanceiro
         }
 
         private void dtDespesa_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvDespesas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

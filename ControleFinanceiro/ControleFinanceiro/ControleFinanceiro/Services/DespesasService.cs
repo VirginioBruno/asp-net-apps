@@ -1,4 +1,6 @@
 ﻿using ControleFinanceiro.Context;
+using ControleFinanceiro.Models;
+using ControleFinanceiro.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,25 +11,29 @@ namespace ControleFinanceiro
 {
     public class DespesasService
     {
-        public List<Despesa> Listar()
+        public List<DespesaResult> Listar(DateTime? dataInicio, DateTime? dataFim)
         {
-            var despesas = new List<Despesa>();
+            var despesas = new List<DespesaResult>();
 
             using (var context = new ApplicationContext())
             {
-                despesas = context.TB_CF_DESPESAS.ToList();
-            }
+                var despesasDB = context.TB_CF_DESPESAS
+                    .Where(d => d.Data >= dataInicio && d.Data <= dataFim)
+                    .ToList();
 
-            return despesas;
-        }
+                foreach (var despesa in despesasDB)
+                {
+                    var result = new DespesaResult()
+                    {
+                        Despesa = despesa.Nome,
+                        Tipo = TipoDespesa.tipos.FirstOrDefault(t => t.Id == despesa.TipoId).Nome,
+                        Categoria = despesa.Categoria,
+                        Data = despesa.Data.ToString("dd/MM/yyyy"),
+                        Valor = despesa.Valor.ToString("c")
+                    };
 
-        public List<Despesa> ListarAtual()
-        {
-            var despesas = new List<Despesa>();
-
-            using (var context = new ApplicationContext())
-            {
-                despesas = context.TB_CF_DESPESAS.Where(d => d.Data.Month >= DateTime.Now.Month && d.Data.Month < DateTime.Now.Month + 1).ToList();
+                    despesas.Add(result);
+                }
             }
 
             return despesas;

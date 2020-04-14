@@ -31,5 +31,24 @@ namespace ControleFinanceiro
 
             relatorio.Show();
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var cadastro = new CadastroCategorias();
+
+            cadastro.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var cadastro = new CadastroTipos();
+
+            cadastro.Show();
+        }
     }
 }
