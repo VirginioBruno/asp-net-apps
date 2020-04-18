@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ControleFinanceiro.Results
 {
-    public class DespesaResult
+    public class EntradaResult
     {
         public int Id { get; set; }
-        public string Despesa { get; set; }
+        [DisplayName("Descrição")]
+        public string Descricao { get; set; }
         public string Valor { get; set; }
-        public string Tipo { get; set; }
-        public string Categoria { get; set; }
         public string Data { get; set; }
+
     }
 }

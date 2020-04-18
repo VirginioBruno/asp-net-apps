@@ -39,6 +39,23 @@ namespace ControleFinanceiro.Migrations
 
                     b.ToTable("TB_CF_DESPESAS");
                 });
+
+            modelBuilder.Entity("ControleFinanceiro.Models.Entrada", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Data");
+
+                    b.Property<string>("Descricao");
+
+                    b.Property<decimal>("Valor");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TB_CF_ENTRADAS");
+                });
 #pragma warning restore 612, 618
         }
     }

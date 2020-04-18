@@ -158,12 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\ApplicationContext.cs" />
-    <Compile Include="Forms\CadastroCategorias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CadastroCategorias.Designer.cs">
-      <DependentUpon>CadastroCategorias.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\CadastroDespesas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,12 +169,6 @@
     </Compile>
     <Compile Include="Forms\CadastroEntradas.Designer.cs">
       <DependentUpon>CadastroEntradas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\CadastroTipos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CadastroTipos.Designer.cs">
-      <DependentUpon>CadastroTipos.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Menu.cs">
       <SubType>Form</SubType>
@@ -194,27 +182,25 @@
     <Compile Include="Forms\RelatorioDespesas.designer.cs">
       <DependentUpon>RelatorioDespesas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20200411213145_InitialCreate.cs" />
-    <Compile Include="Migrations\20200411213145_InitialCreate.Designer.cs">
-      <DependentUpon>20200411213145_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20200412135300_FinancialControlV1.cs" />
-    <Compile Include="Migrations\20200412135300_FinancialControlV1.Designer.cs">
-      <DependentUpon>20200412135300_FinancialControlV1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\20200414130212_UpdateMigration.cs" />
-    <Compile Include="Migrations\20200414130212_UpdateMigration.designer.cs">
-      <DependentUpon>20200414130212_UpdateMigration.cs</DependentUpon>
+    <Compile Include="Migrations\20200416200852_FirstVersion.cs" />
+    <Compile Include="Migrations\20200416200852_FirstVersion.designer.cs">
+      <DependentUpon>20200416200852_FirstVersion.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\ApplicationContextModelSnapshot.cs" />
     <Compile Include="Models\Despesa.cs" />
+    <Compile Include="Models\Entrada.cs" />
     <Compile Include="Models\TipoDespesa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Results\DespesaResult.cs" />
+    <Compile Include="Results\EntradaResult.cs" />
     <Compile Include="Services\DespesasService.cs" />
+    <Compile Include="Services\EntradasService.cs" />
     <EmbeddedResource Include="Forms\CadastroDespesas.resx">
       <DependentUpon>CadastroDespesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CadastroEntradas.resx">
+      <DependentUpon>CadastroEntradas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

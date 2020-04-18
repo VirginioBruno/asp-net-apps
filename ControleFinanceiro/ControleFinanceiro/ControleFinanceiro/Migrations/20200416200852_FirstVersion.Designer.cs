@@ -10,42 +10,53 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ControleFinanceiro.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20200412135300_FinancialControlV1")]
-    partial class FinancialControlV1
+    [Migration("20200416200852_FirstVersion")]
+    partial class FirstVersion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.3")
+                .HasAnnotation("ProductVersion", "2.1.0-rtm-30799")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("FinancialControl.Despesa", b =>
+            modelBuilder.Entity("ControleFinanceiro.Despesa", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Categoria")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Categoria");
 
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime>("Data");
 
-                    b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Nome");
 
-                    b.Property<int>("TipoId")
-                        .HasColumnType("int");
+                    b.Property<int>("TipoId");
 
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal>("Valor");
 
                     b.HasKey("Id");
 
                     b.ToTable("TB_CF_DESPESAS");
+                });
+
+            modelBuilder.Entity("ControleFinanceiro.Models.Entrada", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Data");
+
+                    b.Property<string>("Descricao");
+
+                    b.Property<decimal>("Valor");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TB_CF_ENTRADAS");
                 });
 #pragma warning restore 612, 618
         }

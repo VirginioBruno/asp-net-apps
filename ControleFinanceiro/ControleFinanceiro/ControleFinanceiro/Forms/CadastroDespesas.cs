@@ -1,6 +1,7 @@
 ﻿using ControleFinanceiro.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace ControleFinanceiro
@@ -17,6 +18,7 @@ namespace ControleFinanceiro
         private void CarregaDespesas(object sender, EventArgs e)
         {
             dgvDespesas.DataSource = despesasService.Listar(DateTime.Now.AddMonths(-1), DateTime.Now);
+            dgvDespesas.Columns["Id"].Visible = false;
             dtDespesa.Value = DateTime.Now;
             CarregaTipos();
         }
@@ -78,8 +80,8 @@ namespace ControleFinanceiro
                 hdnId.Text = row.Cells[0].Value.ToString();
                 txtDespesa.Text = row.Cells[1].Value.ToString();
                 txtValor.Text = row.Cells[2].Value.ToString();
-                txtCategoria.Text = row.Cells[3].Value.ToString();
-                cboTipo.SelectedIndex = Convert.ToInt32(row.Cells[4].Value);
+                cboTipo.SelectedIndex = TipoDespesa.tipos.SingleOrDefault(t => t.Nome == row.Cells[3].Value.ToString()).Id - 1;
+                txtCategoria.Text = row.Cells[4].Value.ToString();
                 dtDespesa.Value = Convert.ToDateTime(row.Cells[5].Value);
 
                 btnAtualizar.Visible = true;

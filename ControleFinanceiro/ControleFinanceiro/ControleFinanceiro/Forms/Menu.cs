@@ -37,16 +37,9 @@ namespace ControleFinanceiro
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var cadastro = new CadastroCategorias();
-
-            cadastro.Show();
-        }
-
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            var cadastro = new CadastroTipos();
+            var cadastro = new CadastroEntradas();
 
             cadastro.Show();
         }

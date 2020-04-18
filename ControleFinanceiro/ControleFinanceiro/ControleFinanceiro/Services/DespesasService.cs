@@ -25,6 +25,7 @@ namespace ControleFinanceiro
                 {
                     var result = new DespesaResult()
                     {
+                        Id = despesa.Id,
                         Despesa = despesa.Nome,
                         Tipo = TipoDespesa.tipos.FirstOrDefault(t => t.Id == despesa.TipoId).Nome,
                         Categoria = despesa.Categoria,
